@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "SFPro";
+    src: url('assets/fonts/SF-Pro-Text-Regular.otf') format("opentype");
+}
+
+:root {
+    --white: #fff;
+    --dark-blue: #1F2D4F;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'SFPro';
+}
+
+h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 41px;
+    color: var(--dark-blue);
+}
+
+h4 {
+    font-size: 17px;
+}
+
+small, p {
+    font-size: 15px;
+}
