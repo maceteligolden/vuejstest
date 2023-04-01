@@ -7,7 +7,7 @@
       <Calendarcard/>
     </div>
     <Buttonbottom>
-      <Button label="Go to Checkout"/>
+      <Button label="Go to Checkout" :is-disabled="true"/>
     </Buttonbottom>
   </MainLayout>
 </template>
