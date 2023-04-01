@@ -25,15 +25,16 @@
         <div class="semiheader">
             <h5>Date</h5>
 
-            <NuxtLink to="#">Edit</NuxtLink>
+            <NuxtLink to="#"  class="link">Edit</NuxtLink>
         </div>
         <p class="pb">June 22,30th</p>
         <div class="semiheader">
             <h5>Guest</h5>
 
-            <NuxtLink to="#">Edit</NuxtLink>
+            <NuxtLink to="#"  class="link">Edit</NuxtLink>
         </div>
         <p class="pbtwo">2 Adults, 0 Children</p>
+        <h4 class="pb">Pricing</h4>
         <div class="pricing-items">
             <p>$38.50x 2 adult guests</p>
 
@@ -44,16 +45,17 @@
 
             <p>$4.50</p>
         </div>
+        
         <div class="total">
-            <p>Total(CAD)</p>
+            <p><b>Total(CAD)</b></p>
 
-            <p>$81.50</p>
+            <p><b>$81.50</b></p>
         </div>
-        <h4 class="pb">Pricing</h4>
+       
         <div class="space-between">
             <h4>Pay With</h4>
 
-            <NuxtLink to="#">Edit</NuxtLink>
+            <NuxtLink to="#" class="link">Edit</NuxtLink>
         </div>
 
         <div class="creditcardcontainer">
@@ -101,6 +103,17 @@ function makePayment() {
 
     .semiheader {
         margin-bottom: 5px;
+    }
+
+    .link {
+        color: #4B73DC;
+        font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+/* identical to box height */
+
+text-decoration-line: underline;
     }
 
     .pb {
